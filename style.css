@@ -1,0 +1,80 @@
+body {
+  background-color: #ff5e5b;
+  color: #ffffea;
+}
+
+h1 {
+  text-align: center;
+  font-size: 40px;
+}
+
+.allButtons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.rock {
+  height: 200px;
+  width: 200px;
+  border: none;
+  border-radius: 50%;
+  margin-right: 35px;
+  background: url("rock.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.paper {
+  height: 200px;
+  width: 200px;
+  border: none;
+  border-radius: 50%;
+  margin-right: 35px;
+  background: url("papper.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.scissors {
+  height: 200px;
+  width: 200px;
+  border: none;
+  border-radius: 50%;
+  margin-right: 35px;
+  background: url("scissor.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.messageContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.msg {
+  font-size: 30px;
+}
+
+.newGameContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.newGameContainer button {
+  height: 80px;
+  width: 200px;
+  font-size: 25px;
+  border: none;
+  border-radius: 25px;
+  background-color: rgb(31, 28, 28);
+  color: white;
+}
+
+.hide {
+  display: none;
+}
